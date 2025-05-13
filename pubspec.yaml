@@ -1,14 +1,4 @@
-name: midi_visualizer
-description: MIDI keyboard velocity visualizer
-version: 1.0.0
-
-environment:
-  sdk: ">=2.17.0 <3.0.0"
-
 dependencies:
   flutter:
     sdk: flutter
-  flutter_midi_command: ^0.6.1
-
-flutter:
-  uses-material-design: true
+  flutter_midi_command: ^0.5.3
